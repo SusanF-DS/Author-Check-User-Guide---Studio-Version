@@ -1,0 +1,6 @@
+{
+  "name": "Dimensions Author Check Job Aid",
+  "description": "User guide and interactive reference job aid for Dimensions Author Check: core workflow, 6 indicators, taxonomy & terminology, data sources, troubleshooting, and profile examples.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

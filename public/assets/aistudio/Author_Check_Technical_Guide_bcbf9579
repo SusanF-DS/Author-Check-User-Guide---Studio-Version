@@ -1,0 +1,245 @@
+﻿Dimensions logo 
+
+DIMENSIONS AUTHOR CHECK
+Author Check Technical Guide
+Last updated October 2026
+This guide explains the data behind Dimensions Author Check: the terms it uses, how each indicator works, where the data comes from, and how common each indicator is. For step-by-step help using the app, see the Author Check User Guide.
+HOW TO USE THIS GUIDE
+* Need a definition? Start with Section 1.
+* Want to know what an indicator measures and why it matters? See Section 2.
+* Want to know where a flag comes from? See Section 3.
+* Want to know how common an indicator is? See Section 4.
+
+
+AN INDICATOR IS NOT A VERDICT
+The indicators in Author Check are not “metrics” that can be used for benchmarking, and none of them can determine misconduct by themself. A highlight means “worth a closer look”, not “this person has done something wrong.”
+	IN THIS GUIDE
+1        Key Terms   Definitions used throughout
+2        The Indicators in Detail   What each measures, and why it matters
+3        Where the Data Comes From   Flag types, sources, reasons, coverage
+4        Indicator Statistics   How common each indicator is (November 2025)
+SECTION 1  ·  READ THESE FIRST
+Key Terms
+These terms appear throughout Author Check and this guide.
+Term
+	Definition
+	Strength of collaboration
+	In a table of co-authors, the number of times the selected researcher is named alongside each co-author on publications in Dimensions.
+	Percentile of publication output
+	The percentile rank of a researcher in Dimensions in terms of the number of publications compared with their peers. “Peers” are all authors who published in the same ANZSRC Field of Research (the field that covers the most of their publications) and with the same first publication year.
+	Flagged publication
+	A publication in Dimensions that has been identified as associated with one or more atypical events, such as retraction, withdrawal, or matching a fingerprint in Guillaume Cabanac’s Problematic Paper Screener.
+	Network flag
+	Researchers with a network flag (“Yes”) are approximately 100 times more likely to have been named as an author of a flagged publication. The methodology is based on Porter & McIntosh (2024), https://www.nature.com/articles/s41598-024-71230-8.
+	Eligible publication
+	For the self-citation indicator: a review paper, research paper, research chapter or conference paper with a minimum of 9 references.
+	Self-citation
+	A publication where at least one of its authors is also an author of at least one of its references.
+	Retraction taxonomy
+	A classification of the reasons given for retractions. Author Check maps the reasons in the Retraction Watch database to it.
+	SECTION 2
+The Indicators in Detail
+Author Check lists several indicators to help detect potential research integrity and paper mill activities. Please keep in mind that these indicators are not “metrics” that can be used for benchmarking, and that none of them can determine misconduct by themself.
+THE SIX INDICATORS AT A GLANCE
+Indicator
+	The question it answers
+	Turns orange when
+	Percentile of publication output
+	How much has this person published compared with their peers?
+	Never. Always grey; shown for context only.
+	Flagged publications
+	Have any of this person’s publications had retractions or other atypical events?
+	At least one flagged publication.
+	Self-citations
+	Does this person ever cite their own or their co-authors’ work?
+	No self-citations (with caveats).
+	Unusual network flag
+	Does this person’s co-author network show unusual patterns?
+	The researcher has an unusual network flag.
+	Co-authors with network flag
+	Do any of their co-authors show unusual network patterns?
+	At least one co-author has an unusual network flag.
+	Co-authors with flagged publications
+	Do their co-authors have flagged publications?
+	At least 20% of co-authors have flagged publications.
+	
+
+▶  VIEW THE DEMO
+Indicators
+https://app.storylane.io/share/pef17sbcf2g6?chapter=3
+	INDICATOR 1 OF 6
+Percentile of Publication Output
+How much a researcher has published compared with their peers.
+What it shows
+	The percentile rank of a researcher’s publication output compared with their peers.
+	Turns orange when
+	Never. This indicator is always grey and is shown for context only.
+	Source
+	Publications assigned to researcher profiles by Dimensions, and Dimensions’ field of research classification. Includes preprints, books and book chapters.
+	HOW IT WORKS
+Peers are all researchers with the same main research field and the same first publication year. A researcher’s main research field is the most frequently detected level 2 ANZSRC field of research in their publications.
+For example, “Top 2% compared to other researchers in the same main research field (‘Pure Mathematics’) and over a similar publishing period (since 2013)” means the researcher is in the top 2% of all pure mathematicians who started publishing in 2013. In other words, 98% of pure mathematicians who started in 2013 published less.
+RESEARCHERS IN MORE THAN ONE FIELD
+If a researcher publishes in philosophy and physics, but physics authors publish more papers, the percentile is shown among physicists.
+	
+
+An early career researcher normally publishes less than a senior academic, and in some fields, researchers publish less than in others. This is considered in the calculations. Percentiles are shown in a similar way for other indicators, to give a feel for how “unusual” a researcher’s number of publications is.
+WHY IT MATTERS
+A researcher with a high output percentile is extremely prolific compared with other researchers of the same “academic age” and field. This may be due to their productivity and skill. However, it could also be due to the use of paper mills or other unethical publication practices.
+INDICATOR 2 OF 6
+Flagged Publications
+The number of a researcher’s publications associated with an atypical event, such as a retraction or an expression of concern.
+What it shows
+	The count and details of a researcher’s atypical publications.
+	Turns orange when
+	The researcher has at least one flagged publication.
+	Sources
+	See Section 3, Where the Data Comes From.
+	WHEN A PUBLICATION HAS MORE THAN ONE FLAG
+Many publications have flags from more than one source. For example, tortured phrases may be detected, then lead to an expression of concern, and later to a retraction reported to PubMed and Retraction Watch. In those cases the most serious flag with the most metadata is highlighted (here, the retraction reported to Retraction Watch). All other flags appear when you click the flag in the flagged publications table on the researcher profile page.
+WHY IT MATTERS, AND WHAT TO KEEP IN MIND
+Researchers with problematic behavior in the past may also use unethical means to increase their publication output in the future. However, care must be taken with retractions:
+* Honest mistakes count in a researcher’s favor. Researchers may have made honest mistakes, may agree with the retraction, or may have reported a problem with their paper themselves. This should be counted as a positive.
+* Not every retraction signals wrongdoing. Some retractions are due to certain publication procedures, or to third-party rights issues with an image.
+* Many problems are never reported. The retraction process can be long and complicated, and many problematic papers have not been reported. Research integrity issues may affect far more researchers than currently recognized.
+INDICATOR 3 OF 6
+Self-Citations
+Whether a researcher’s publications cite work by their own authors.
+What it shows
+	How many of a researcher’s publications are self-citations. A publication is a self-citation if at least one of its authors is also an author of at least one of its references.
+	Turns orange when
+	The researcher has no self-citations (with the caveats on who is analyzed, below).
+	Source
+	Dimensions publications data.
+	WHICH PUBLICATIONS AND RESEARCHERS ARE INCLUDED
+To ensure substantive engagement with the existing literature, only eligible publications are analyzed: review papers, research papers, research chapters and conference papers with a minimum of 9 references.
+Only recently active researchers who are not completely junior are analyzed: those who published in the last 2 years and have a minimum of 5 eligible publications.
+WHY IT MATTERS
+Unless a researcher is very early in their career, their publications usually build on their own work or the work of their co-authors, so some self-citations are expected. The lack of any self-citations can be an indicator of paper mill use. More background is available here.
+WATCH OUT FOR EARLY-CAREER RESEARCHERS
+A researcher with fewer than 5 eligible publications, or no activity in the last 2 years, is outside the analysis. Do not read a missing self-citation result for them as a warning sign.
+	INDICATOR 4 OF 6
+Unusual Network Flag
+Whether a researcher’s co-author network behaves unusually.
+What it shows
+	Whether the publishing pattern of a researcher’s co-author network is unusual. Researchers with a network flag (“Yes”) are approximately 100 times more likely to have been named as an author of a flagged publication.
+	Turns orange when
+	The researcher has an unusual network flag.
+	Source
+	Described in Porter & McIntosh (2024), https://www.nature.com/articles/s41598-024-71230-8, and implemented for Dimensions data.
+	HOW IT WORKS
+Roughly speaking, this indicator checks the publication behavior of the network of co-authors of a given researcher. Normally many of these co-authors know each other and work together on other publications. If a researcher uses the service of a paper mill, their co-authors generally have few or no collaborations, since paper mills often randomly allocate their customers to the papers they produce.
+WHY IT MATTERS
+This is an indicator of paper mill activity. See Section 4, Indicator Statistics, for how common the flag is, and how often researchers with the flag also have flagged publications.
+INDICATOR 5 OF 6
+Co-Authors with Network Flag
+How many of a researcher’s co-authors have the unusual network flag.
+What it shows
+	The number or percentage of co-authors that have the unusual network flag.
+	Turns orange when
+	The researcher has at least one co-author with an unusual network flag.
+	Source
+	As for indicator 4.
+	WHY IT MATTERS
+The network flag is conservative. Listing the percentage of co-authors that have it can show concerning practices by the selected researcher as well. See Section 4, Indicator Statistics, for additional insights.
+INDICATOR 6 OF 6
+Co-Authors with Flagged Publications
+How many of a researcher’s co-authors have at least one flagged publication.
+What it shows
+	The number or percentage of co-authors that have at least one flagged publication.
+	Turns orange when
+	At least 20% of the researcher’s co-authors have flagged publications.
+	Source
+	As for indicator 2.
+	WHY IT MATTERS
+Not every problematic paper is caught with a retraction. Having collaborators involved in retractions may increase the likelihood that the researcher is involved in questionable practices as well.
+THIS IS NOT A RARE FINDING
+Having co-authors with flagged publications is common, mainly because researchers with flagged publications have a far higher number of co-authors. This is why the highlight starts at 20% of co-authors, not at just one. See Section 4, Indicator Statistics.
+	SECTION 3
+Where the Data Comes From
+Author Check compiles data from various sources to find atypical events. Dimensions does not rely on just one source (e.g. Retraction Watch), as that may leave out a number of retracted or otherwise atypical publications.
+FLAG TYPES
+Flag
+	What it means
+	Retraction (notices)
+	Issues with the publication have resulted in the publisher, editorial board and/or the authors withdrawing it. A retracted paper may or may not come with a retraction notice.
+	Expression of concern
+	Issues are being investigated. Although no final decision has been reached (e.g. a retraction), the publisher or editorial board has informed readers of potential problems.
+	Tortured phrases
+	Phrases that appear to be corruptions of established technical terms, with one or more words replaced by a synonym (e.g. “counterfeit consciousness” in place of “artificial intelligence”). Often the result of a paraphrasing algorithm used to avoid plagiarism detection.
+	Citejacked
+	The publication cites articles in hijacked journals, which use the ISSN, title and metadata of established journals on fake websites.
+	
+
+For more on tortured phrases, see this preprint and this Nature article. For more on citejacking, see this preprint.
+WHERE THE FLAGS COME FROM
+Source
+	What it contributes
+	Retraction Watch
+	Its own database of retractions and expressions of concern, compiled from various sources and manually curated.
+	CrossRef
+	Mainly retractions and expressions of concern, usually when publishers update the metadata of their publication in CrossRef.
+	PubMed
+	Retractions provided by publishers.
+	Dimensions
+	Its own detection algorithm for retractions and retraction notices. This is needed because not all publishers update the necessary CrossRef metadata when a publication is retracted. Sometimes only the title changes, a retraction notice with a different DOI is issued, or a new version is created.
+	Problematic Paper Screener
+	Citejacked articles and tortured phrases.
+	REASONS AND RETRACTION TAXONOMY
+The Retraction Watch database also provides one or several short reasons for a retraction. To make this data easier to digest, Author Check maps it to the retraction taxonomy. You will see the reasons and taxonomy levels when you click a flag.
+DATA BEHIND EACH INDICATOR
+Indicator
+	Data used
+	Percentile of publication output
+	Publications assigned to researcher profiles by Dimensions, and Dimensions’ field of research classification (ANZSRC). Includes preprints, books and book chapters.
+	Flagged publications
+	The sources listed above.
+	Self-citations
+	Dimensions publications data.
+	Unusual network flag
+	A method described in Porter & McIntosh (2024), implemented for Dimensions data. https://www.nature.com/articles/s41598-024-71230-8
+	Co-authors with network flag
+	The unusual network flag, applied to each of the researcher’s co-authors.
+	Co-authors with flagged publications
+	Flagged publications, counted across each of the researcher’s co-authors.
+	COVERAGE AND LIMITS
+* Profiles. Indicators are calculated from the publications Dimensions has assigned to researcher profiles.
+* Self-citations. The analysis covers only recently active researchers with at least 5 eligible publications.
+* Reporting. The retraction process can be long and complicated, and many problematic papers have not been reported. Counts of publications per source are illustrative and are not regularly updated.
+SECTION 4  ·  NOVEMBER 2025
+Indicator Statistics
+FIGURES DATE QUICKLY
+These figures describe November 2025. They are not regularly updated and serve as an illustration only. “Recently active researchers” is the group the statistics were calculated for.
+	
+
+HOW COMMON ARE THE INDICATORS?
+Indicator
+	November 2025
+	Flagged publications
+	About 1% of recently active researchers had at least one flagged publication. About 0.2% had at least two.
+	Unusual network flag
+	About 0.01% of recently active researchers had an unusual network flag. Of those, 50% also had flagged publications, far higher than the average researcher.
+	Co-authors with network flag
+	About 2% of recently active researchers had such co-authors. 9% of those researchers had flagged publications, far higher than average.
+	Co-authors with flagged publications
+	About 30% of recently active researchers had such co-authors. On average 3% of all co-authors have flagged publications. Among researchers with flagged publications, the figure is far higher.
+	SIZE OF THE FLAG SOURCES
+Source
+	Publications (approx.)
+	Retraction Watch
+	57,000
+	CrossRef
+	70,000
+	PubMed
+	30,000
+	Dimensions’ own detection
+	24,000
+	Problematic Paper Screener
+	23,000
+	
+
+DISCLAIMER
+This information is sourced from Dimensions Author Check and is not exhaustive or error-free. It is not intended to be used to make a decision about a particular person or determine any other outcome. Data is publicly sourced and does not imply that anyone has done anything wrong.
+	
+
+Dimensions Author Check Technical Guide

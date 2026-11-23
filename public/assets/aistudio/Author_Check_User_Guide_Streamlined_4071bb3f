@@ -1,0 +1,298 @@
+﻿Dimensions logo 
+
+DIMENSIONS AUTHOR CHECK
+Author Check User Guide
+Last updated October 2026
+Author Check allows you to check researchers for potential research integrity flags based on prior activities, including retractions, unusual networks or productivity. This guide gets you started and walks you through finding a researcher, reading their report, and reviewing the results responsibly.
+HOW TO USE THIS GUIDE
+* New to Author Check? Start with Section 1, then try Section 2.
+* Want to see it done? Look for the navy View the demo boxes. Each links to a short, recorded demo.
+* Want the details behind an indicator? See the Author Check Technical Guide for definitions, calculations and data sources.
+We highly encourage you to subscribe to product updates at https://updates.dimensions.ai/. Updates will show the most recent changes to the product, which may not be reflected in this document immediately upon release.
+AN INDICATOR IS NOT A VERDICT
+The indicators in Author Check are not “metrics” that can be used for benchmarking, and none of them can determine misconduct by themself. A highlight means “worth a closer look”, not “this person has done something wrong.”
+	IN THIS GUIDE
+1Getting Started   Your first check
+2Finding a Researcher   Search, filter, open a profile
+3Reading a Researcher Report   Orange highlights, flags, co-authors
+4Using Results Responsibly   Weigh what you find
+5Working with the Data   Navigate, drill down, export
+6Help & Support   Troubleshooting and FAQs
+SECTION 1  ·  NEW TO AUTHOR CHECK? START HERE.
+Getting Started
+Author Check helps you spot potential research integrity signals for authors, peer reviewers and editors before you invite, accept or appoint them. It is built around a repeatable four-step workflow.
+THE CORE WORKFLOW
+1. Find the researcher. Search by name, ORCID, Dimensions Researcher ID, or the DOI of a manuscript to see all of its authors. Go to Section 2.
+2. Review the indicators. Open the researcher profile. Anything highlighted in orange is worth a closer look. Go to Section 3.
+3. Dig into the details. Review flagged publications and the co-author network to see what sits behind each highlight. Go to Section 3.
+4. Export the data. Download the whole profile or individual tables as PDF or CSV. Go to Section 5.
+
+
+NOTE
+Each step feeds the next. A precise search gives you the right profile. A careful read of the indicators tells you where to look. The flagged publications and co-author tables give you the context to decide what, if anything, needs a follow-up.
+	BEFORE YOUR FIRST CHECK
+* Log in at dimensions.ai and open Author Check from Apps in the left-hand navigation sidebar.
+* Have the best identifier you can get. An ORCID or Dimensions Researcher ID gives the quickest and most precise result.
+* Skim the Indicators section inside the app so you know what each highlight means.
+* Understand that an indicator is not a verdict (see Section 4). Always say in external communications that the data is publicly sourced and does not imply that anyone has done anything wrong.
+
+
+▶  VIEW THE DEMO
+Getting Started with Author Check
+https://app.storylane.io/share/pef17sbcf2g6?chapter=1
+	SECTION 2
+Finding a Researcher
+Open the Researcher Finder to search for one researcher or multiple researchers affiliated with the same institution. You can search by name, ORCID or Dimensions Researcher ID, or you can use a DOI or Dimensions Document ID to return a list of authors.
+THREE WAYS TO FIND SOMEONE
+Search by
+	Best when
+	Precision
+	Name + affiliation
+	You only have a name and, ideally, an institution.
+	Good. Several people may share a name, so add an affiliation.
+	ORCID or Dimensions Researcher ID
+	You have an identifier, for example from a submission system.
+	Highest. The quickest and most precise lookup.
+	DOI or Dimensions Document ID
+	You want to check all the authors listed on one publication.
+	Returns every author on that document. A Dimensions Document ID can be for a publication, grant, patent or clinical trial.
+	RESEARCHER FINDER FILTERS
+STEP 1
+Open the filter panel
+Click Researcher Finder, then Filter. The filter options appear.
+STEP 2
+Choose your filters
+Select a filter such as Name, ORCID or Affiliation and enter your search. When you use more than one filter, results must match all of them (an “AND” search).
+STEP 3
+Choose the affiliation scope
+If you use Affiliation, set Affiliation filter type to search all known affiliations (past and present) or only the current one, which is the one in the researcher’s Dimensions profile.
+STEP 4
+Apply Filters
+Click Apply filters to execute the search for profiles.
+STEP 5
+Clear a filter or start over
+Clear an individual filter by clicking the “x” at the end of its input. To clear everything, click the Reset link next to Apply filters.
+
+
+HOW COMBINED FILTERS WORK
+Using several filters creates an “AND” search. If you get no results, remove a filter and try again.
+	FILTER REFERENCE
+Filter
+	Use it to find a researcher by…
+	Name
+	Searching for their name.
+	ORCID
+	Searching for their ORCID.
+	Dimensions Researcher ID
+	Searching for their Dimensions Researcher ID.
+	Affiliation
+	Searching for their current or historical affiliation.
+	Affiliation filter type
+	Choosing whether the Affiliation filter applies to all known affiliations or only the current one (the one in their Dimensions profile).
+	DOI
+	Searching for the authors of a DOI.
+	Dimensions Document ID
+	Searching for the authors, investigators or inventors of a Dimensions Document ID for a publication, grant, patent or clinical trial.
+	READING THE SEARCH RESULTS
+The results list shows indicator details for each match, such as institution affiliation, active publishing years, main fields of research and major grants. Use these to confirm you have the right person, then click a name to open the researcher profile.
+ Example Author Check search results with researcher, active years, main research fields, grants and indicator columns; orange cells mark indicators that need a closer look 
+
+Example search results. Orange cells mark indicators that need a closer look.
+▶  VIEW THE DEMO
+Find a Researcher
+https://app.storylane.io/share/pef17sbcf2g6?chapter=2
+	BEGINNING FROM A DIMENSIONS SEARCH
+Instead of starting your workflow directly in Author Check, you can follow through to Author Check from a standard Dimensions search. You can reach an Author Check report from a Dimensions search in two ways:
+* From the Researcher filter
+   * Click the Researcher filter in the left-hand panel of a standard Dimensions search.
+   * Click View More and search for the researcher’s name.
+   * Click the vertical 3 dot menu on the right and select View in Author Check.
+* From Analytical Views
+   * Open Analytical Views and select the Researchers view.
+   * Click on a researcher’s name, then click View in Author Check.
+
+
+▶  VIEW THE DEMO
+Start from a Dimensions Search
+https://app.storylane.io/share/pef17sbcf2g6?chapter=6
+	SECTION 3
+Reading a Researcher Report
+The researcher profile lists a researcher’s flagged publications, along with their co-authors and the co-authors’ flagged publications. Work through it from the top; summary indicators first, then the detail behind any highlight.
+READING THE PROFILE, TOP TO BOTTOM
+Area
+	What you will see
+	What to do with it
+	Top overview
+	The summary indicators, with orange highlights wherever an indicator needs a closer look.
+	Note which indicators are highlighted. The table below explains each one.
+	Self-citations
+	The researcher’s self-citation figures in the top overview.
+	Click a figure to drill down to the publications behind it.
+	Flagged publications table
+	Every flagged publication, with the most serious flag shown for each.
+	Click a flag to see every flag and reason.
+	Co-authors table
+	The researcher’s co-authors, their flags, and collaboration strength.
+	Look for co-authors with network flags or flagged publications.
+	WHAT THE ORANGE HIGHLIGHTS MEAN
+Author Check highlights a researcher in orange when an indicator needs a closer look. Percentile of publication output is never orange.
+Indicator
+	The question it answers
+	Turns orange when
+	Percentile of publication output
+	How much has this person published compared with their peers?
+	Never. Always grey; shown for context only.
+	Flagged publications
+	Have any of this person’s publications had retractions or other atypical events?
+	At least one flagged publication.
+	Self-citations
+	Does this person ever cite their own or their co-authors’ work?
+	No self-citations (with caveats).
+	Unusual network flag
+	Does this person’s co-author network show unusual patterns?
+	The researcher has an unusual network flag.
+	Co-authors with network flag
+	Do any of their co-authors show unusual network patterns?
+	At least one co-author has an unusual network flag.
+	Co-authors with flagged publications
+	Do their co-authors have flagged publications?
+	At least 20% of co-authors have flagged publications.
+	
+
+WANT THE FULL DEFINITIONS?
+The Author Check Technical Guide explains how each indicator is calculated and where the data comes from.
+	
+
+▶  VIEW THE DEMO
+Indicators
+https://app.storylane.io/share/pef17sbcf2g6?chapter=3
+	INVESTIGATE A FLAGGED PUBLICATION
+The flagged publications table lists the researcher’s flagged publications and shows the most serious or important flag for each. A publication can have several flags. For example, a publication may contain tortured phrases, which triggered an expression of concern, which then led to a retraction. In that case the table shows the retraction.
+See every flag on a publication
+1. Open the researcher profile.
+2. Find the publication in the Flagged publications table.
+3. Click the flag.
+Where: Flagged publications table, researcher profile
+Result: A list opens with every flag, plus the data source, date, reason and retraction taxonomy for each.
+ Flagged publications table showing the most serious flag for each publication 
+
+The flagged publications table shows the most serious flag for each publication
+ Pop-up listing all flags with data source, date, reason and retraction taxonomy 
+
+Clicking a flag lists every flag, with data source, date, reason and retraction taxonomy
+EXPLORE THE CO-AUTHORS
+The co-authors table shows who the researcher publishes with. Strength of collaboration is the number of times the selected researcher is named alongside each co-author on publications in Dimensions. The table also shows which co-authors have an unusual network flag or flagged publications.
+You can sort any table by clicking the arrows next to a column name, and re-order columns by dragging and dropping them.
+Where: Co-authors table, researcher profile
+DRILL INTO SELF-CITATIONS
+See the publications behind a self-citation figure
+1. Go to the top overview of the researcher profile.
+2. Click the self-citation percentages.
+3. Click the link to show the overview.
+Where: Top overview of the researcher profile, self-citation percentages
+Result: A drill-down shows all publications, whether each is eligible for the analysis, and whether it is a self-citation.
+
+
+▶  VIEW THE DEMO
+Investigate the Details
+https://app.storylane.io/share/pef17sbcf2g6?chapter=4
+	SECTION 4
+Using Results Responsibly
+Author Check is designed to help you decide where to look, not what to conclude. This section explains how to weigh what you find when screening authors, peer reviewers and editors.
+FOUR PRINCIPLES
+* An indicator is a prompt, not a finding. None of the indicators can determine misconduct by themself.
+* Read indicators together. One highlight tells you where to look. Several highlights that point the same way deserve more attention than one on its own.
+* Look behind the number. Open the flagged publications to see what type of flag it is, when it happened and why.
+* Absence of a flag is not clearance. The retraction process is slow, and many problematic papers have not been reported.
+SCREENING BY ROLE
+If you are checking…
+	Look at first
+	Keep in mind
+	An author
+	Flagged publications (type, date and reasons), then self-citations and the percentile of publication output.
+	A high output percentile may reflect real productivity. A missing self-citation result for an early career researcher may not be meaningful.
+	A peer reviewer
+	Flagged publications, then co-authors with network flags and co-authors with flagged publications.
+	Network indicators describe the researcher’s co-author network. They say nothing directly about the quality of their research or reviews.
+	An editor
+	Flagged publications, then the co-author indicators.
+	Treat any highlight as a prompt to look closer and to follow your organization’s own process.
+	WHAT THE INDICATORS CANNOT TELL YOU
+* Intent. A retraction can follow an honest mistake that the researcher reported themself. Some retractions are due to publication procedures or third-party rights issues with an image.
+* What has not been reported. There may be far more researchers with research integrity issues than we know.
+* Anything outside the data. Indicators are calculated from the publications Dimensions has assigned to researcher profiles, and from the sources described in the Technical Guide.
+* Researchers outside the analysis. Self-citation analysis covers only recently active researchers with at least 5 eligible publications.
+SECTION 5
+Working with the Data
+This section covers moving around the dashboard, working with tables and charts, drilling down, and exporting.
+NAVIGATING THE DASHBOARD
+* Selecting reports. Click the report or submenu item you want (it will turn blue) to update the dashboard.
+* Active report. Only one report can be active at a time. Others close automatically once a submenu item is selected.
+USING TABLES AND CHARTS
+To…
+	Do this
+	Sort a table
+	Use the arrows next to the column name.
+	Re-order columns
+	Drag and drop the column.
+	See what a tile shows
+	Hover over the icons on the tile for a description of the data.
+	Learn what a field or filter means
+	Scroll to the About this data section at the end of each page.
+	DRILL-DOWNS AND LINKS
+* Accessing drill-downs. Where available, click a tile, bar or point on a visualization to see the drill-down information.
+* Drill-down display. You will either see a table with the drill-down information appear immediately or be given one or more links to explore more data.
+* Links to Dimensions. Some elements link to the main Dimensions web app. When you click one, a pop-up appears with the link to the relevant Dimensions page.
+
+
+NOTE: DRILL-DOWN LIMIT
+Drill-downs are limited to a maximum of 500 results.
+	EXPORTING
+You can export entire reports or individual sections as PDF or CSV.
+STEP 1
+Download a single tile or table
+Some tiles can be downloaded individually. Select the three vertical dots on the tile, then Download data. Choose the format (e.g. PDF, CSV). Advanced options give more control over what you download.
+Where: Three vertical dots on the tile
+ Menu with Download data, Autosize all columns and Reset all column widths 
+
+The tile menu
+STEP 2
+Download an entire page
+Select the three dots at the top right of the dashboard, then Download. Choose PDF or CSV.
+Where: Three dots, top right of the dashboard
+
+
+▶  VIEW THE DEMO
+Export Data
+https://app.storylane.io/share/pef17sbcf2g6?chapter=5
+	SECTION 6
+Help & Support
+TROUBLESHOOTING
+Issue
+	Cause
+	Recommendation
+	Full page export cuts off
+	Export limits
+	Filter by a shorter time range, or export from individual charts.
+	Cannot copy text from within charts and tables
+	Technical limitations
+	Copy the contents of an entire cell by clicking into the cell, then pressing CTRL+C (or CMD+C on a Mac).
+	Bad page breaks in PDF export
+	Technical limitations
+	Format your PDF to fit the dashboard instead of choosing a paper size format.
+	FREQUENTLY ASKED QUESTIONS
+What is the limit for drill-downs?
+Drill-downs are limited to a maximum of 500 results.
+What are the types of the flags listed in Author Check?
+See the Technical Guide, Section 3: Flag types.
+What are the sources for retractions and other types of flags?
+See the Technical Guide, Section 3: Where the flags come from.
+How do I clear all my filters?
+Click the Reset link next to Apply filters. To clear a single filter, click the “x” at the end of its input.
+
+
+DISCLAIMER
+This information is sourced from Dimensions Author Check and is not exhaustive or error-free. It is not intended to be used to make a decision about a particular person or determine any other outcome. Data is publicly sourced and does not imply that anyone has done anything wrong.
+	
+
+Dimensions Author Check User Guide

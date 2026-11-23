@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dimensions Author Check — User & Indicator Guide (Complete Reference)</title>
+  <style>
+    :root {
+      --primary: #1f1a45;
+      --secondary: #304e9d;
+      --accent-blue: #40bbed;
+      --accent-orange: #f18900;
+      --accent-purple: #9333ea;
+      --accent-green: #10b981;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #181338 0%, #201a4a 100%);
+      color: #ffffff;
+      padding: 40px 24px;
+      border-bottom: 4px solid var(--accent-blue);
+    }
+
+    .header-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(64, 187, 237, 0.2);
+      color: var(--accent-blue);
+      border: 1px solid rgba(64, 187, 237, 0.4);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #cbd5e1;
+      max-width: 800px;
+      line-height: 1.5;
+    }
+
+    .nav-bar {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 10px 24px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .nav-container a {
+      color: var(--secondary);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+
+    .nav-container a:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+
+    .callout-principle {
+      background: #fffbeb;
+      border-left: 4px solid var(--accent-orange);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin-bottom: 32px;
+      font-size: 14px;
+      color: #78350f;
+    }
+
+    .callout-principle strong {
+      color: #92400e;
+      display: block;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--secondary);
+      margin: 20px 0 10px 0;
+    }
+
+    p, li {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background: #f8fafc;
+      color: var(--primary);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+    }
+
+    tr:hover {
+      background: #f1f5f9;
+    }
+
+    .badge-orange {
+      background: #ffedd5;
+      color: #c2410c;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+      border: 1px solid #fed7aa;
+    }
+
+    .badge-grey {
+      background: #f1f5f9;
+      color: #64748b;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .step-box {
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      background: #fcfdfe;
+    }
+
+    .step-box h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    footer {
+      background: #181338;
+      color: #94a3b8;
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      border-top: 1px solid #334155;
+      margin-top: 48px;
+    }
+
+    @media print {
+      body { background: #fff; }
+      .nav-bar { display: none; }
+      section { box-shadow: none; border: none; padding: 12px 0; }
+      header { background: #fff; color: #000; border-bottom: 2px solid #000; padding: 20px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <span class="badge">Standalone User &amp; Reference Guide</span>
+      <h1>Dimensions Author Check — Complete User Guide</h1>
+      <p class="subtitle">
+        A step-by-step screening workflow, indicator deep-dive, retraction taxonomy reference, and role-based screening framework for research integrity evaluation.
+      </p>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <div class="nav-container">
+      <a href="#principle">Core Principle</a>
+      <a href="#quickstart">Part 1: Quick Start (Steps 1–4)</a>
+      <a href="#indicators">Part 2: The 6 Indicators</a>
+      <a href="#taxonomy">Part 3: Retraction Taxonomy</a>
+      <a href="#roles">Part 4: Role Screening</a>
+      <a href="#glossary">Part 5: Terminology Glossary</a>
+    </div>
+  </nav>
+
+  <main>
+    <div id="principle" class="callout-principle">
+      <strong>Core Principle: An Indicator Is Not a Verdict</strong>
+      The indicators in Author Check are not "metrics" that can be used for benchmarking, and none of them can determine misconduct by itself. A highlight indicates <em>"worth a closer look"</em> — not <em>"this person has done something wrong."</em>
+    </div>
+
+    <!-- PART 1: QUICK START WORKFLOW -->
+    <section id="quickstart">
+      <h2>Part 1: Quick Start Workflow (4 Steps)</h2>
+
+      <h3>Step 1: Find the Researcher</h3>
+      <p>Log in at <code>dimensions.ai</code> and open Author Check from <strong>Apps</strong> in the left-hand navigation sidebar.</p>
+      
+      <div class="step-box">
+        <h4>Three Search Methods:</h4>
+        <ul>
+          <li><strong>Dimensions Researcher ID or ORCID (Most Precise):</strong> The quickest lookup without name ambiguity. Ideal when you have an ID from a manuscript submission or CV.</li>
+          <li><strong>Name + Affiliation (More Precise):</strong> Best when you only have a name. Always specify institution since multiple researchers frequently share common names.</li>
+          <li><strong>DOI or Dimensions Document ID (Co-authors):</strong> Resolves all co-authors listed on a published article or submitted manuscript at once.</li>
+        </ul>
+      </div>
+
+      <div class="step-box">
+        <h4>Applying Filters &amp; AND Logic:</h4>
+        <p>Combining multiple filters (Name, Affiliation, ORCID, DOI) executes an <strong>AND</strong> search. If zero results return, remove a filter to broaden the lookup.</p>
+      </div>
+
+      <h3>Step 2: Review the Summary Indicators</h3>
+      <p>Work from the top overview of the researcher profile. Five indicators can turn orange when an atypical pattern is detected; publication volume is always neutral grey.</p>
+      <ul>
+        <li><strong>Publications:</strong> Peer percentile output (Grey).</li>
+        <li><strong>Flagged publications:</strong> Turns orange if &ge; 1 retracted paper, notice of concern, or publication with tortured phrases.</li>
+        <li><strong>Self-citations:</strong> Turns orange if author has an anomalously low self-citation rate (&lt;80th percentile) despite qualifying across all 3 eligibility rules.</li>
+        <li><strong>Unusual network flag:</strong> Turns orange if disjointed co-author clusters suggest paper mill syndicate activity.</li>
+        <li><strong>Co-authors with network flags:</strong> Turns orange if &ge; 1 collaborator has an unusual network flag.</li>
+        <li><strong>Co-authors with flagged publications:</strong> Turns orange ONLY if &ge; 20% of collaborators have flagged papers.</li>
+      </ul>
+
+      <h3>Step 3: Investigate the Details</h3>
+      <div class="step-box">
+        <h4>1. Investigate Flagged Publications</h4>
+        <p>The main table displays the most serious flag. Click any row to view all flags, source database (Retraction Watch, Crossref, PPS), notice date, and reason taxonomy. Distinguish between author-requested self-corrections (which count in the author's favor) and forced retractions for fraud.</p>
+      </div>
+      <div class="step-box">
+        <h4>2. Explore Co-Author Collaborations</h4>
+        <p>Sort by Strength of Collaboration to examine whether flagged co-authors are core lab colleagues or one-time co-authors on massive consortium papers.</p>
+      </div>
+      <div class="step-box">
+        <h4>3. Drill into Self-Citations</h4>
+        <p>Click the self-citation percentage to inspect eligible papers. Verification requires: active within the last 2 years, at least 5 eligible publications, and &ge;9 references per paper. Authors with &lt;5 papers stay neutral grey to avoid penalizing early-career scholars.</p>
+      </div>
+
+      <h3>Step 4: Export Data Responsibly</h3>
+      <p>Download individual tables or complete researcher dossiers as CSV or PDF via the three vertical dots menu. Note that drill-downs are capped at 500 records. Always document that findings are public metadata indicators, not legal determinations.</p>
+    </section>
+
+    <!-- PART 2: THE 6 INDICATORS -->
+    <section id="indicators">
+      <h2>Part 2: The 6 Indicators Deep Dive &amp; Thresholds</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Indicator Name</th>
+            <th>The Question It Answers</th>
+            <th>Highlight Threshold</th>
+            <th>Peer Cohort &amp; Rationale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1</strong></td>
+            <td>Percentile of Publication Output</td>
+            <td>How does output compare to peers in the same field and career stage?</td>
+            <td><span class="badge-grey">Always Grey</span></td>
+            <td>ANZSRC Level 2 field + first publication year cohort. Contextual only. High volume alone is not misconduct.</td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>Flagged Publications</td>
+            <td>Has the researcher authored papers with retractions, concerns, or tortured phrases?</td>
+            <td><span class="badge-orange">&ge; 1 Flagged Paper</span></td>
+            <td>Includes Retraction Watch, Crossref, and Problematic Paper Screener. A single paper warrants examining the reason notice.</td>
+          </tr>
+          <tr>
+            <td><strong>3</strong></td>
+            <td>Self-Citations</td>
+            <td>Is there an anomalous absence of self-citations?</td>
+            <td><span class="badge-orange">&lt; 80th %ile (typically &lt;2%)</span></td>
+            <td>Requires &ge;5 eligible papers with &ge;9 references and activity in last 2 years. Protects early career researchers. Flags authorship brokering.</td>
+          </tr>
+          <tr>
+            <td><strong>4</strong></td>
+            <td>Unusual Network Flag</td>
+            <td>Does the researcher publish with disjointed clusters of unrelated co-authors?</td>
+            <td><span class="badge-orange">Fragmented Network</span></td>
+            <td>Topology graph algorithm. Only 0.01% of researchers trigger this, but 50% have flagged papers (100x statistical risk of paper mills).</td>
+          </tr>
+          <tr>
+            <td><strong>5</strong></td>
+            <td>Co-authors with Network Flags</td>
+            <td>Has the researcher collaborated with someone holding an Unusual Network Flag?</td>
+            <td><span class="badge-orange">&ge; 1 Co-Author</span></td>
+            <td>Screens for secondary exposure to paper mill syndicates. Investigate the joint papers.</td>
+          </tr>
+          <tr>
+            <td><strong>6</strong></td>
+            <td>Co-authors with Flagged Publications</td>
+            <td>What percentage of co-authors have flagged publications?</td>
+            <td><span class="badge-orange">&ge; 20% of Co-Authors</span></td>
+            <td>High 20% threshold prevents false alarms, as ~30% of normal scholars have at least 1 flagged co-author across their career.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- PART 3: RETRACTION TAXONOMY -->
+    <section id="taxonomy">
+      <h2>Part 3: Retraction Taxonomy &amp; Cause Classifications</h2>
+      <p>Author Check categorizes retraction notices into distinct severity levels:</p>
+      <ul>
+        <li><strong>Author Integrity:</strong> Misconduct including falsification, plagiarism, identity theft, paper mill authorship brokering, and compromised peer review.</li>
+        <li><strong>Unreliable Research:</strong> Inaccurate data, calculation errors, irreproducible findings, contamination, or unverified protocols (often self-reported by authors).</li>
+        <li><strong>Publisher Error:</strong> Administrative errors, duplicate publication by publisher, or accidental release of uncorrected drafts (no author fault).</li>
+        <li><strong>Problematic Paper Screener (PPS):</strong> Algorithmic detection of tortured phrases (synonym-scrambled AI text) and hijacked journals.</li>
+      </ul>
+    </section>
+
+    <!-- PART 4: ROLE SCREENING -->
+    <section id="roles">
+      <h2>Part 4: Responsible Role Screening Checklists</h2>
+
+      <h3>1. Screening Manuscript Authors</h3>
+      <ul>
+        <li>Verify if any retractions occurred in the submitted paper's research domain.</li>
+        <li>Distinguish between author self-corrections and forced fraud.</li>
+        <li>Check whether an Unusual Network Flag exists across the corresponding author or senior author.</li>
+      </ul>
+
+      <h3>2. Screening Potential Peer Reviewers</h3>
+      <ul>
+        <li>Check for low self-citation rates (anomalous reviewer identity) and active retractions.</li>
+        <li>Ensure co-author flags do not create hidden conflicts of interest with the submitted manuscript.</li>
+      </ul>
+
+      <h3>3. Screening Editorial Board Candidates</h3>
+      <ul>
+        <li>Examine all 6 indicators comprehensively, particularly Co-authors with Network Flags and Unusual Network topology.</li>
+        <li>Editorial positions carry gatekeeping authority; zero exposure to paper mill syndicates is essential.</li>
+      </ul>
+    </section>
+
+    <!-- PART 5: GLOSSARY -->
+    <section id="glossary">
+      <h2>Part 5: Core Glossary &amp; Terminology</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Plain-English Definition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Peer Cohort</strong></td>
+            <td>A comparison group of researchers within the same primary ANZSRC Level 2 research field who published their very first paper in the exact same year.</td>
+          </tr>
+          <tr>
+            <td><strong>Tortured Phrases</strong></td>
+            <td>Unnatural scientific phrasing generated when computer-generated or translated text scrambles standard terminology to evade plagiarism detection.</td>
+          </tr>
+          <tr>
+            <td><strong>Paper Mill</strong></td>
+            <td>Commercial underground operations that produce fabricated scientific manuscripts, sell authorship slots, and manipulate citations.</td>
+          </tr>
+          <tr>
+            <td><strong>Expression of Concern</strong></td>
+            <td>A formal notice published by a journal editor when substantial doubts arise about a paper while a formal institutional investigation is ongoing.</td>
+          </tr>
+          <tr>
+            <td><strong>ANZSRC Field of Research</strong></td>
+            <td>The Australian and New Zealand Standard Research Classification system used by Dimensions to classify researchers into fields.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dimensions Author Check &bull; Digital Science &bull; https://dimensions.ai</p>
+    <p style="margin-top: 4px; font-size: 11px;">Figures and benchmarks reflect November 2025 statistics &bull; Guide updated October 2026</p>
+  </footer>
+
+</body>
+</html>
